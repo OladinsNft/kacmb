@@ -1,0 +1,183 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "alagard";
+  src: url("../public/fonts/alagard.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  --font-family: 'alagard', serif;
+  --clr-light: #f0e9e9;
+  --clr-purple: #ad0000;
+  --clr-pink: #631b1b;
+  --clr-yellow: #fee440;
+  --clr-blue: #000607;
+  --clr-green: #00f5d4;
+  --clr-selection-bg: #990202;
+  --clr-selection-text: #f4f0f0;
+  --clr-background: #252525;
+  --clr-red: #ad0000;
+  --clr-darkerred: #631b1b;
+
+  /* Customize Wallet Modal */
+  /* CUSTOMIZE THE COLOR  PALLETTE */
+  --onboard-white: white;
+  --onboard-black: black;
+  --onboard-primary-1: #2f80ed;
+  --onboard-primary-100: #eff1fc;
+  --onboard-primary-200: #d0d4f7;
+  --onboard-primary-300: #b1b8f2;
+  --onboard-primary-400: #929bed;
+  --onboard-primary-500: #6370e5;
+  --onboard-primary-600: #454ea0;
+  --onboard-primary-700: #323873;
+  --onboard-gray-100: #ebebed;
+  --onboard-gray-200: #c2c4c9;
+  --onboard-gray-300: #999ca5;
+  --onboard-gray-400: #707481;
+  --onboard-gray-500: #33394b;
+  --onboard-gray-600: #242835;
+  --onboard-gray-700: #1a1d26;
+  --onboard-success-100: #d1fae3;
+  --onboard-success-200: #baf7d5;
+  --onboard-success-300: #a4f4c6;
+  --onboard-success-400: #8df2b8;
+  --onboard-success-500: #5aec99;
+  --onboard-success-600: #18ce66;
+  --onboard-success-700: #129b4d;
+  --onboard-danger-100: #ffe5e6;
+  --onboard-danger-200: #ffcccc;
+  --onboard-danger-300: #ffb3b3;
+  --onboard-danger-400: #ff8080;
+  --onboard-danger-500: #ff4f4f;
+  --onboard-danger-600: #cc0000;
+  --onboard-danger-700: #660000;
+  --onboard-warning-100: #ffefcc;
+  --onboard-warning-200: #ffe7b3;
+  --onboard-warning-300: #ffd780;
+  --onboard-warning-400: #ffc74c;
+  --onboard-warning-500: #ffaf00;
+  --onboard-warning-600: #cc8c00;
+  --onboard-warning-700: #664600;
+}
+body {
+  overflow-y: scroll;
+}
+
+
+
+.moving-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../public/images/lastforback.gif");
+  background-size: 100% 100%; /* Updated */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 60% 60%;
+  
+}
+.logo-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+@font-face {
+  font-family: BagelFatOne;
+  src: url(../public/fonts/BagelFatOne-Regular.ttf);
+}
+.BagelFatOne {
+  font-family: BagelFatOne;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Adjust the vertical alignment to top */
+  padding: 20px; /* Add some padding to create space around the GIF */
+}
+
+.gif {
+  border: 4px solid #d0d4f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #929bed;
+  color: #d9d9d9;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "BagelFatOne";
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+  background: url("../public/parallax/arbitrum_chicky_site_gorsel5arkaplan1.jpeg");
+  background-size: 100% 100%; /* Updated */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 60% 60%;
+}
+
+::selection {
+  background: var(--clr-selection-bg);
+  color: var(--clr-selection-text);
+}
+.about-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../public/parallax/arbitrum_chicky_site_gorsel5arkaplan1.jpeg");
+  background-size: 100% 100%; /* Updated */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 60% 60%;
+  
+}
+.button{}

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "focus-beacon-343200",
+  "private_key_id": "8591a3b30fa594bf4f6778ff45127d71f8d8875c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCKfZw7OoVLvfV\nDw8c0CT4O7oM66CdDg5bjuAEW+1wkQengUBGxPSZo1xf6301OCp9vn2TvagC5NLF\nUEctEjZIMnBy5D/CVyy06Jrx9l9GYh0uwq/Idxv3u2rZlZ93PbRo/fJk48I7d2fh\n/vGqcx8GFaqrvxnePosuSLnG1phc+VBVvxDGKhHa1qhN5Smjs4hYtqb/Mt71lfc8\nYgqSSUonyHrXNcmtxD8tjPPKJRST+MQ7pK2l3Bj3fmG045ntIMwRywqRME3bYl0W\nNPXADPzCj1DQ2u2FnHsmPyJLaa2KsVPB2W7z2UOkUrUlcEKGP+4n9DcQT/XNh8oC\njx9YdfB3AgMBAAECggEAHc0pCT4j06qI2YfdLvP3qK4qKU+FMHX22DC+y4x8jjmE\nbj5VakdSr742MHbJmgCL7Q7u4V1Ly13px+VBd3aDJGOxhMDp1F9i+kV1esvw5bGr\nfwDc0C0P+t8mUE0506iB51eK+9dFebEjHbnux9WxnlJ3BrNnOghpfmolMZLAggxx\ns0eVRWBcZ2GBli20U5c6lp5Xp7lJrSP+P/syfN68Ghmv8WAhqUqbRsGRhn5WfeC8\nYTdImnOc2kN3i7Ag17u6mZ47UN9M844M+MBhqiyokCR8eJ8Xh8u8wKsHTic8XmZl\nxdom9G58oRHW8HtcZQSatYkOO8x5rc3n7pJET93XaQKBgQDqvS2K82tUCQiX8X/T\n4ZmSTNe5a2URhYAd2k+HFX8rSbqmvNXHFnb4//lIql1896hISMqODC5goRtXHGtB\nRV1DDwLhYnFs/FiqG+hICSfdXHBosSA/SuZKE/O2t2c6zGAoz1hbIABCOVNdUBcf\n08wG5bkFHP5IDqWvvvnoH3luXQKBgQDTv/uo+HIXlnVLsUoDs00IzonXnMoGllhJ\n7Edv9zkbqjfR1h3dcu1dWoZz6/4hsiuGQc5YQias6eLUdbbC4vITEURiHHt94AFD\nB2WvZ8nl4yeRy5poBB1tgSjircbHzls90yBfeZ3iTdhuGATmUgX3iwYWUM3CjnZ0\n2nHK4RQk4wKBgQCQkkC5YmAI2qNzSSZsLXay1ybJqO4PU4RrXmg6jy/KTldpl8Wm\nHxzZEHXMnjiD3dfD5SjzQWdS1gaLqRIZmgntYhJpE4M+F1DYO+Xcb98gg20r3WM5\n9/xLRWyFbQFkAjl7CPCm9teR8dJ5FvmW/Y+b8+H21zt4z6SVz+4EW1YjdQKBgQCV\nLa0DlrzyZzqNsAJf5wL/kFrGPxyJVYQv2Dlf5UEjf2FCAOIbcGtPmIYexwTMAnTt\nahEQVtJegYwfeCrg0/gNfN27bSuHO7hH279Euw8fWVA4Q8OtQjDlQ9hlEl53x6a6\nQLKO8ORNWeB/d4aEKQcxJY2NTTIYvjswCfGfJ8EEVwKBgG/0jQYcn+zvUof0XLO3\nUOZso6MyK/OEGtQP0hnfFwlqJnaMQbPF0ohg5JLA6UIdJDgQAeeUa43nFKKce1Fm\nXIudYRpYV1tCrWOWhAY41+mTrN+m4OPca3p9tViWYdMnY7odyGxon79MX5Uw2AQx\n9beLJLG8ip1qM3Ksy+s+Txzd\n-----END PRIVATE KEY-----\n",
+  "client_email": "walletaddresshighscore@focus-beacon-343200.iam.gserviceaccount.com",
+  "client_id": "109305970728149159369",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/walletaddresshighscore%40focus-beacon-343200.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
